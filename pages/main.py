@@ -540,7 +540,7 @@ async def main_menu(page: ft.Page):
                 ]
             )
 
-            self.title = ft.Text("HR агентство alnaborisenko2002", size=32, weight=ft.FontWeight.BOLD, color="#1E3A8A", text_align=ft.TextAlign.CENTER)
+            self.title = ft.Text("HR агентство", size=32, weight=ft.FontWeight.BOLD, color="#1E3A8A", text_align=ft.TextAlign.CENTER)
             self.subtitle = ft.Text("Ваш надежный партнер в мире рекрутинга", size=16, color="#64748B", italic=True, text_align=ft.TextAlign.CENTER)
             self.logo = ft.Icon(ft.icons.HOME_WORK, size=100, color="#1E3A8A")
 

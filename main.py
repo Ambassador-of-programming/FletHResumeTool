@@ -5,7 +5,7 @@ from navigation.bar import Appbar
 
 
 async def main(page: ft.Page):
-    page.title = 'HR_alnaborisenko2002'
+    page.title = 'HR_manager'
     page.theme_mode = ft.ThemeMode.DARK
     page.scroll = 'HIDDEN'
     page.padding = 0
