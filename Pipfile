@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+undetected-chromedriver = "*"
+beautifulsoup4 = "*"
+pandas = "*"
+openpyxl = "*"
+numpy = "*"
+nuitka = "*"
+imageio = "*"
+cryptography = "*"
+flet = "==0.24.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.7"
